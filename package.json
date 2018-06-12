@@ -1,0 +1,22 @@
+{
+  "name": "gpio",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "danielg",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "handlebars": "^4.0.11",
+    "hapi": "^17.2.3",
+    "hapio": "^2.0.0",
+    "inert": "^5.1.0",
+    "onoff": "^2.0.0",
+    "socket.io": "^2.0.4",
+    "vision": "^5.3.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}

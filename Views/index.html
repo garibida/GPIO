@@ -1,0 +1,29 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="/public/index.css" />
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/public/index-view.js"></script>
+</head>
+
+<body>
+  <table>
+    {{#each GPIOs}} {{#if (isEven @index)}}
+    <tr>
+      {{/if}}
+      <td>
+        <h3>{{name}}</h3>
+        {{#if gpioNumber}}
+        <label class="switch">
+          <input type="checkbox" id={{gpioNumber}} onclick='checkboxChanged(this)'>
+          <span class="slider"></span>
+        </label> {{/if}}
+      </td>
+      {{#unless (isEven @index)}}
+    </tr>
+    {{/unless}} {{/each}}
+  </table>
+
+</body>
+
+</html>

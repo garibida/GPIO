@@ -1,0 +1,177 @@
+{
+  "Server": {
+    "host": "localhost",
+    "port": 8080,
+    "homePage": "/raspi",
+    "routes": {
+      "files": {
+        "relativeTo": "./Static/Public"
+      }
+    }
+  },
+  "ViewsPath": "./Lib/Views",
+  "GPIO": {
+    "GPIOs": [
+      {
+        "name": "3.3V",
+        "gpioNumber": 0
+      },
+      {
+        "name": "5V",
+        "gpioNumber": 0
+      },
+      {
+        "name": "GPIO 2 (SDA)",
+        "gpioNumber": 2
+      },
+      {
+        "name": "5V",
+        "gpioNumber": 0
+      },
+      {
+        "name": "GPIO 3 (SCL)",
+        "gpioNumber": 3
+      },
+      {
+        "name": "Ground",
+        "gpioNumber": 0
+      },
+      {
+        "name": "GPIO 4 (GPCLK0)",
+        "gpioNumber": 4
+      },
+      {
+        "name": "GPIO 14 (TXD)",
+        "gpioNumber": 14
+      },
+      {
+        "name": "Ground",
+        "gpioNumber": 0
+      },
+      {
+        "name": "GPIO 15 (RXD)",
+        "gpioNumber": 15
+      },
+      {
+        "name": "GPIO 17",
+        "gpioNumber": 17
+      },
+      {
+        "name": "GPIO 18 (PCM_C)",
+        "gpioNumber": 18
+      },
+      {
+        "name": "GPIO 27 (PCM_D)",
+        "gpioNumber": 27
+      },
+      {
+        "name": "Ground",
+        "gpioNumber": 0
+      },
+      {
+        "name": "GPIO 22",
+        "gpioNumber": 22
+      },
+      {
+        "name": "GPIO 23",
+        "gpioNumber": 23
+      },
+      {
+        "name": "3.3V",
+        "gpioNumber": 0
+      },
+      {
+        "name": "GPIO 24",
+        "gpioNumber": 24
+      },
+      {
+        "name": "GPIO 10 (MOSI)",
+        "gpioNumber": 10
+      },
+      {
+        "name": "Ground",
+        "gpioNumber": 0
+      },
+      {
+        "name": "GPIO 9 (MISO)",
+        "gpioNumber": 9
+      },
+      {
+        "name": "GPIO 25",
+        "gpioNumber": 25
+      },
+      {
+        "name": "GPIO 11 (SCKL)",
+        "gpioNumber": 11
+      },
+      {
+        "name": "GPIO 8 (CE0)",
+        "gpioNumber": 8
+      },
+      {
+        "name": "Ground",
+        "gpioNumber": 0
+      },
+      {
+        "name": "GPIO 7 (CE1)",
+        "gpioNumber": 7
+      },
+      {
+        "name": "ID_SD",
+        "gpioNumber": 0
+      },
+      {
+        "name": "ID_SD",
+        "gpioNumber": 0
+      },
+      {
+        "name": "GPIO 5",
+        "gpioNumber": 5
+      },
+      {
+        "name": "Ground",
+        "gpioNumber": 0
+      },
+      {
+        "name": "GPIO 6",
+        "gpioNumber": 6
+      },
+      {
+        "name": "GPIO 12",
+        "gpioNumber": 12
+      },
+      {
+        "name": "GPIO 13",
+        "gpioNumber": 13
+      },
+      {
+        "name": "Ground",
+        "gpioNumber": 0
+      },
+      {
+        "name": "GPIO 19 (MISO)",
+        "gpioNumber": 19
+      },
+      {
+        "name": "GPIO 16",
+        "gpioNumber": 16
+      },
+      {
+        "name": "GPIO 26",
+        "gpioNumber": 26
+      },
+      {
+        "name": "GPIO 20 (MOSI)",
+        "gpioNumber": 20
+      },
+      {
+        "name": "Ground",
+        "gpioNumber": 0
+      },
+      {
+        "name": "GPIO 21 (SCKL)",
+        "gpioNumber": 21
+      }
+    ]
+  }
+}
